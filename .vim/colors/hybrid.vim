@@ -451,11 +451,3 @@ let &background = s:style
 " THE SOFTWARE.
 
 " }}}
-
-" My tweaks (scwood)
-hi ColorColumn cterm=none ctermbg=233 ctermfg=none
-hi StatusLine cterm=none ctermbg=235 ctermfg=white
-hi StatusLineNC cterm=none ctermbg=235 ctermfg=none
-hi TabLineSel cterm=none ctermfg=white ctermbg=none
-hi TabLine cterm=none ctermfg=white ctermbg=235
-hi TabLineFill cterm=none ctermfg=white ctermbg=235
