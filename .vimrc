@@ -30,8 +30,7 @@ set mouse=a                     "use mouse in vim
 set ruler                       "always show current position
 set pastetoggle=<F2>            "key mapping"
 set showmatch                   "show matching brackets
-set tw=74                       "text width for auto-wrappine
-set wrap linebreak nolist       "soft wrap
+set tw=74                       "text width for auto-wrapping
 
 "colors
 colorscheme hybrid
