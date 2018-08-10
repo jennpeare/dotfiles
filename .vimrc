@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 "my plugins
 Plugin 'w0ng/vim-hybrid'
 Plugin 'tpope/vim-sensible'
-Plugin 'scrooloose/syntastic'
+Plugin 'leafgarland/typescript-vim'
 
 "all of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,6 +38,7 @@ set background=dark
 set t_Co=256
 syntax on
 let g:hybrid_custom_term_colors = 1
+let g:hybrid_reduced_contrast = 1
 
 "tab settings
 set autoindent                  "turn on auto-indenting
@@ -58,13 +59,3 @@ cmap w!! w !sudo tee >/dev/null %
 
 "use tabs for makefiles
 autocmd FileType make setlocal noexpandtab
-
-"syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
