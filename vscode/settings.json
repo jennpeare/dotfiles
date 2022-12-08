@@ -1,0 +1,42 @@
+{
+  // Editor
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.cursorBlinking": "smooth",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+
+  // GitLens
+  "gitlens.codeLens.scopes": ["document"],
+  "gitlens.hovers.currentLine.over": "line",
+
+  // JavaScript
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Python
+  "python.formatting.blackPath": "/Users/jennifershi/.asdf/shims/black",
+  "python.formatting.provider": "black",
+
+  // TypeScript
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Workbench
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.startupEditor": "none"
+}
