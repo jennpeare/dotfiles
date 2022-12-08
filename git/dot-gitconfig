@@ -1,7 +1,7 @@
 [user]
   name = Jenny Shi
   email = jennpeare@gmail.com
-  ;signingkey = <gpg id>
+  ;gigningkey = <keyid>
 [commit]
   gpgsign = true
 [core]
@@ -10,3 +10,5 @@
   default = current
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
