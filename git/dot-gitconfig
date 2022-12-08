@@ -1,7 +1,7 @@
 [user]
   name = Jenny Shi
   email = jennpeare@gmail.com
-  ;gigningkey = <keyid>
+  ;signingkey = <keyid>
 [commit]
   gpgsign = true
 [core]
