@@ -1,7 +1,17 @@
 # dotfiles
 
-```
-$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+https://github.com/benniemosher/the-one-theme
 
-$ vim +PluginInstall +qall
+vim
 ```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+```
+
+zsh
+```
+brew install zsh-syntax-highlighting zsh-autosuggestions
+```
+
+Fira Code
+VSCode: https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions

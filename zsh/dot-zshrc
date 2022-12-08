@@ -24,9 +24,14 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh_reload)
 
 source $ZSH/oh-my-zsh.sh
+[[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+[[ -f $HOME/.asdf/completions/asdf.bash ]] && source $HOME/.asdf/completions/asdf.bash
+
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix asdf)/libexec/asdf.sh
 
 # User configuration
@@ -49,7 +54,6 @@ source $(brew --prefix asdf)/libexec/asdf.sh
 # Example aliases
 alias zshconfig="vim $HOME/.zshrc"
 alias ohmyzsh="cd $HOME/.oh-my-zsh"
-alias r!="source $HOME/.zshrc"
 alias lah="ls -lah"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.

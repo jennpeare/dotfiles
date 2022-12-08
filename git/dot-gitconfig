@@ -1,0 +1,12 @@
+[user]
+  name = Jenny Shi
+  email = jennpeare@gmail.com
+  ;signingkey = <gpg id>
+[commit]
+  gpgsign = true
+[core]
+	excludesfile = ~/.gitignore_global
+[push]
+  default = current
+[url "git@github.com:"]
+	insteadOf = https://github.com/
