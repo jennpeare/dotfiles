@@ -10,11 +10,9 @@
   "editor.detectIndentation": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "editor.minimap.enabled": false,
-  "editor.mouseWheelZoom": true,
   "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
 
