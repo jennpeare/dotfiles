@@ -2,7 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load
-ZSH_THEME="TheOne"
+ZSH_THEME="dracula"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -38,7 +38,6 @@ source $(brew --prefix asdf)/libexec/asdf.sh
 export GPG_TTY=$(tty) # Needed for GPG signing
 export CLICOLOR=1
 export LSCOLORS="exfxcxdxbxegedabagacad" 
-
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
