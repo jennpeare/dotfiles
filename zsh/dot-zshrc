@@ -59,6 +59,7 @@ alias zshconfig="vim $HOME/.zshrc"
 alias ohmyzsh="cd $HOME/.oh-my-zsh"
 alias r!="source $HOME/.zshrc"
 alias lah="ls -lah"
+alias get-ip='ifconfig en0 | grep "inet " | cut -d" " -f2'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 # export PATH="$PATH:$HOME/.rvm/bin"
