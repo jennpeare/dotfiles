@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "natqe.reload",
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "zhuangtongfa.material-theme",
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "yzhang.markdown-all-in-one",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
